@@ -51,7 +51,7 @@ export const PatientForm = () => {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="flex-1 space-y-6 p-4 rounded-2xl shadow-[1px_4px_100px_50px_rgba(0,_0,_0,_0.8)]">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="flex-1 space-y-6 p-6 rounded-2xl shadow-[1px_4px_100px_50px_rgba(0,_0,_0,_0.8)]">
         <section className="mb-12 space-y-4">
           {/* <h1 className="header">Hi there 👋</h1> */}
           <p className="text-3xl text-center font-extrabold text-white italic">Register</p>
